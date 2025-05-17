@@ -55,6 +55,8 @@ CROSS_PER_ADDRESS = 3     # 每次跨链尝试次数，因为经常失败建议�
 
 ## 2.3 出错信息
 
+2025-05-17 更新：暂停uni链swap，因为uni跨链失败。
+
 如果出现replacement transaction underpriced这种信息，修改代码中的gas，
 
 把'gasPrice': w3.to_wei(0.5, 'gwei'), 0.5修改成1
