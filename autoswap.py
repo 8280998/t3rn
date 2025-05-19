@@ -15,11 +15,11 @@ CROSS_PER_ADDRESS = 3     # 每次跨链尝试次数，因为经常失败建议�
 
 # RPC参数
 CHAINS = {
-#    'uni': {
-#        'rpc': 'https://unichain-sepolia-rpc.publicnode.com',
-#        'chain_id': 1301,
-#        'contract': '0x1cEAb5967E5f078Fa0FEC3DFfD0394Af1fEeBCC9'
-#    },
+    'uni': {
+        'rpc': 'https://unichain-sepolia-rpc.publicnode.com',
+        'chain_id': 1301,
+        'contract': '0x1cEAb5967E5f078Fa0FEC3DFfD0394Af1fEeBCC9'
+    },
     'arb': {
         'rpc': 'https://sepolia-rollup.arbitrum.io/rpc',
         'chain_id': 421614,
@@ -39,7 +39,7 @@ CHAINS = {
 
 # 链标识映射
 CHAIN_IDENTIFIERS = {
-#    'uni': 'unit',
+    'uni': 'unit',
     'arb': 'arbt',
     'base': 'bast',
     'op': 'opst'
